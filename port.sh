@@ -10,7 +10,7 @@
 
 # Test Port ROM: OnePlus 12 (ColorOS_14.0.0.810), OnePlus ACE3V(ColorOS_14.0.1.621) Realme GT Neo5 240W(RMX3708_14.0.0.800)
 
-build_user="Bruce Teng"
+build_user="Ashish"
 build_host=$(hostname)
 
 # 底包和移植包为外部参数传入

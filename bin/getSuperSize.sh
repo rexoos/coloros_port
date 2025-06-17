@@ -3,6 +3,7 @@ device_code=$1
 case $device_code in
 	OnePlus9R) size=9932111872;;
 	OnePlus8T) size=7516192768;;
+	RE54E4L1 | RMX3371) size=11274289152;;
     OnePlus8 | OnePlus8Pro) size=15032385536;;
 	#Oppo find X3
 	OP4E5D | OnePlus9 | OnePlus9Pro) size=11190403072;;
