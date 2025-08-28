@@ -637,7 +637,7 @@ remove_prop "persist.oplus.software.alertslider.location"
 
 update_prop_from_base
 
-sed -i "s/persist.sys.oplus.anim_level=.*/persist.sys.oplus.anim_level=1/g" build/portrom/images/my_product/build.prop
+sed -i "s/persist.sys.oplus.anim_level=.*/persist.sys.oplus.upgrade_anim_level=2/g" build/portrom/images/my_product/build.prop
 
 remove_prop "ro.oplus.resolution"
 remove_prop "ro.oplus.display.wm_size_resolution_switch.support"

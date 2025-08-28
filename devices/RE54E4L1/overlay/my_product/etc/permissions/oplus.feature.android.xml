@@ -1,0 +1,42 @@
+<oplus-config>
+    <!-- PengYizhang@ANDROID.SENSOR, 2021/03/11, add for RichTap vibrator -->
+    <oplus-feature name="oplus.software.vibrator_richctap" />
+    <!-- PengYizhang@ANDROID.SENSOR, 2021/03/11, add end -->
+    <!-- Chao.Li@ANDROID.BIOMETRICS.1070880, 2021/09/16, add for feature fingerprint_optical -->
+    <oplus-feature name="oplus.software.fingeprint_optical_enabled" />
+    <oplus-feature name="oplus.software.face_nopowerblock" />
+    <!-- Guofu.Yang@ANDROID.WMS.2458273, 2020/08/13, Add for app resolution switch -->
+    <oplus-feature name="oplus.software.app_resolution_switch" />
+    <oplus-feature name="oplus.software.app_resolution_auto" />
+    <!-- steve.shen@OPTI, 2021/03/12, Add for animation scroll opt -->
+    <oplus-feature name="oplus.software.scroll.animation_opt" />
+    <!-- Kairong.Yin@GAMEECO, 2021/8/3, Add for pc connect -->
+    <oplus-feature name="oplus.software.pcconnect.support" />
+    <!-- WenYao.li@SENSOR, 2022/01/27, add for X-axis linear vibrator type -->
+    <oplus-feature name="oplus.hardware.vibrator_xlinear_type" />
+    <oplus-feature name="oplus.software.vibrator_lmvibrator" />
+    <!-- WenYao.li@SENSOR, 2022/01/27, add end -->
+    <!-- ZhongJiangWen@ANDROID.PERFORMANCE, 2022/08/10, add for service/provider bind small core  -->
+    <oplus-feature name="oplus.software.bind_small_core" />
+    <!-- ZhongJiangWen@ANDROID.PERFORMANCE, 2022/08/10, add end -->
+
+    <!-- #Fei.Ma@PSW.AD.Memory, 2022/08/22, Disable delayed kill cached processes to
+    reduce the impact on boot memory. -->
+    <oplus-feature name="oplus.software.ams.disable_delay_mcp_kill" />
+    <!-- fangwenjie@ANDROID.WMS, 2023/03/24, enable define refresh rate for app by user -->
+    <oplus-feature name="oplus.software.display.refreshrate_default_override" />
+    <!-- HouJian@ANDROID.AMS, 5214278, 2023/03/22, Add for keep alive oplus customization important apps -->
+    <oplus-feature name="oplus.software.perceptible_app_keep_alive" />
+    <!-- YaFeng.Geng@ANDROID.AMS, 2023/05/31, add for serviceDelay in Lowmemory -->
+    <oplus-feature name="oplus.software.service.restrat_duration_low" />
+    <!-- YaFeng.Geng@ANDROID.input, 2023/11/8, add for  press_takeScreen -->
+    <oplus-feature name="oplus.software.input.press_area_takescreen" />
+    <!-- Jingcheng.Shi@ANDROID.POWER, 2023/09/22, Add for keep game screen on during call -->
+    <oplus-feature name="oplus.software.game.keep_screen_on_during_call" />
+    <!-- Jingcheng.Shi@ANDROID.POWER, 2023/09/22, Add for keep game screen on during call end -->
+	<oplus-feature name="oplus.software.support.zoom.open_wechat_mimi_program" />
+	<oplus-feature name="oplus.software.support.zoom.center_exit" />
+	<oplus-feature name="oplus.software.support.zoom.game_enter" />
+	<oplus-feature name="ooplus.software.coolex.support" />
+	<oplus-feature name="oplus.gpu.controlpanel.support" />
+</oplus-config>

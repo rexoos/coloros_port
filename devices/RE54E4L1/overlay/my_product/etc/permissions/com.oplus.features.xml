@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+	<feature name="android.hardware.fingerprint"/>
+	<feature name="oppo.back.touch.fingerprint.sensor"/>
+	<feature name="oppo.hardware.fingerprint.optical.support"/>
+	<feature name="android.hardware.biometrics.face"/>
+	<feature name="oplus.hw.manufacturer.qualcomm"/>
+	<feature name="oppo.qualcomm.gemini.support"/>
+</permissions>

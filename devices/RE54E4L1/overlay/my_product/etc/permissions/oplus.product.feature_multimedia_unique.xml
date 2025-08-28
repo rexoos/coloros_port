@@ -1,0 +1,65 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.display.dcbacklight_support" />
+    <!-- fanxu@MULTIMEDIA.AUDIOSERVER.BASE.2020/6/23. Add for voice wakeup features start-->
+    <oplus-feature name="oplus.software.audio.voice_wakeup_support"/>
+    <oplus-feature name="oplus.software.audio.voice_wakeup_3words_support"/>
+    <!-- fanxu@MULTIMEDIA.AUDIOSERVER.BASE.2020/6/23. Add for voice wakeup features end-->
+    <oplus-feature name="oplus.software.display.origin_roundcorner_support" />
+    <oplus-feature name="oplus.software.display.colormode_support" />
+    <oplus-feature name="oplus.software.display.cinema_mode_support" />
+    <oplus-feature name="oplus.software.display.screen_gloablehbm_support" />
+    <oplus-feature name="oplus.software.display.aod_support" />
+    <oplus-feature name="oplus.software.display.multibits_dimming_support" />
+    <oplus-feature name="oplus.software.display.aod_prevent_burn_support" />
+    <oplus-feature name="oplus.software.display.brightness_mode_automatic" />
+    <oplus-feature name="oplus.software.display.refreshrate_default_smart" />
+    <oplus-feature name="oplus.software.display.fingerprint_disable_dimlayer" />
+    <oplus-feature name="oplus.software.display.screen_heteromorphism" />
+    <oplus-feature name="oplus.software.display.autobrightctl_animation_support" />
+    <oplus-feature name="oplus.software.display.autolight_psensor_notsupport" />
+    <oplus-feature name="oplus.software.display.dynamic_fps_switch" />
+    <oplus-feature name="oplus.software.display.colormode_calibrate_support" />
+    <!-- LiAn@PSW.MultiMedia.Display.Service,2020/08/12,remove HDR Feature  -->
+    <oplus-feature name="oplus.software.display.hdr_enhance_brightness_support" />
+    <!-- Huade.Zhou@MM.AUDIOSERVER, 2020/08/07, Add for dual headphone feature -->
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+    <!-- huangwentao@GAMEECO.COOLEFFECT.COOLEX, 2020/10/21, Add for coolex feature start -->
+    <oplus-feature name="oplus.software.coolex.support"/>
+    <!-- LiuXin@MULTIMEDIA.DISPLAY.GCP, 2020/09/03, Add for gcp feature start -->
+    <oplus-feature name="oplus.software.display.game_color_plus_v2_support"/>
+    <!-- LiuXin@MULTIMEDIA.DISPLAY.GCP, 2020/09/03, Add for gcp feature end -->
+    <!-- end -->
+    <!-- wangyazhao@GAMEECO.JoyStick, 2020/11/04, Add for touch adjuster feature start -->
+    <oplus-feature name="oplus.software.game.touch_adjuster_support"/>
+    <!-- end -->
+    <!-- wangyazhao@GAMEECO.JoyStick, 2020/11/12, Add for joystick feature -->
+    <oplus-feature name="oplus.software.joystick.game_joystick_support"/>
+    <!-- end -->
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2020/11/10, Add for osie and sr feature start -->
+    <oplus-feature name="oplus.software.video.sr_support"/>
+    <oplus-feature name="oplus.software.video.osie_support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2020/11/10, Add for osie and sr feature end -->
+    <!-- Helongbao@MULTIMEDIA.VIBRATE, 2020/11/13, Add for FourD Vibrate feature start -->
+    <oplus-feature name="oplus.software.haptic_vibrator_v1.support"/>
+    <oplus-feature name="oplus.software.haptic_vibrator_v2.support"/>
+    <!-- Helongbao@MULTIMEDIA.VIBRATE, 2020/11/13, Add for FourD Vibrate feature end -->
+    <!-- CaiHuiyue@MULTIMEDIA, 2020/12/8, Add for ADFR -->
+    <!--<oplus-feature name="oplus.software.display.adfr"/>-->
+    <!-- end -->
+    <oplus-feature name="oplus.software.display.dual_lightsensor_support"/>
+    <oplus-feature name="oplus.software.display.multi_device_decrease_refresh_rate"/>
+    <!-- yulong.li@Multimedia.AUDIO.FEATURE, 2021/10/13, Add for memc  feature start-->
+    <!-- <oplus-feature name="oplus.software.video.rm_memc"/>-->
+    <!-- yulong.li@Multimedia.AUDIO.FEATURE, 2021/10/13, Add for memc  feature end-->
+    <oplus-feature name="oplus.software.display.colorful_mode_support" />
+    <!-- yulong.li@Multimedia.AUDIO.FEATURE, 2021/10/13, Add for memc  feature end-->
+    <oplus-feature name="oplus.software.display.reduce_brightness_rm"/>
+
+    <!-- Zhangjunjun@MULTIMEDIA.AUDIOSERVER.BASE, 2023/11/07, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+    <oplus-feature name="oplus.software.display.rgb_ball_support"/>
+	<oplus-feature name="oplus.software.audio.media_control" />
+	<oplus-feature name="oplus.hardware.audio.voice_isolation_support" />
+	<oplus-feature name="oplus.hardware.audio.voice_denoise_support" />
+</oplus-config>
