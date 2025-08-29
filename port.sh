@@ -588,6 +588,7 @@ for i in $(find build/portrom/images -type f -name "build.prop");do
     sed -i "s/ro.oplus.radio.global_regionlock.enabled=.*/ro.oplus.radio.global_regionlock.enabled=false/g" ${i}
     sed -i "s/persist.sys.radio.global_regionlock.allcheck=.*/persist.sys.radio.global_regionlock.allcheck=false/g" ${i}
     sed -i "s/ro.oplus.radio.checkservice=.*/ro.oplus.radio.checkservice=false/g" ${i}
+    sed -i "s/ro.build.version.realmeui=.*/ro.build.version.realmeui=V6.0 | By Ashish/g" ${i}
 done
 
 #sed -i -e '$a\'$'\n''persist.adb.notify=0' build/portrom/images/system/system/build.prop
@@ -906,6 +907,12 @@ add_feature "com.oplus.mediaturbo.service" build/portrom/images/my_product/etc/e
 add_feature 'com.oplus.note.aigc.ai_rewrtie.support" args="boolean:true' build/portrom/images/my_product/etc/extension/com.oplus.app-features.xml
 
 add_feature 'com.oplus.mediaturbo.tencent_meeting" args="boolean:true'  build/portrom/images/my_product/etc/extension/com.oplus.app-features.xml
+
+add_feature "athena.fastclear.from.launcher"  build/portrom/images/my_product/etc/extension/com.oplus.app-features.xml
+add_feature "com.android.launcher.DISABLE_USE_NEW_LAYOUT"  build/portrom/images/my_product/etc/extension/com.oplus.app-features.xml
+add_feature "com.oplus.blur.support_upgrade_anim_material_blur"  build/portrom/images/my_product/etc/extension/com.oplus.app-features.xml
+add_feature "com.android.launcher.support_stack_recents"  build/portrom/images/my_product/etc/extension/com.oplus.app-features.xml
+
 add_feature  "oplus.software.directservice.finger_flashnotes_enable" build/portrom/images/my_product/etc/extension/com.oplus.oplus-feature.xml
 
 if grep -q "oplus.software.audio.alert_slider"  build/portrom/images/my_product/etc/permissions/* ;then
